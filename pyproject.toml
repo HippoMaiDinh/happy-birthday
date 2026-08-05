@@ -1,0 +1,19 @@
+[project]
+name = "happy-birthday-project"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "HippoMaiDinh",email = "lym861@hsd.k12.or.us"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "flet[all] (>=0.86.5,<0.87.0)"
+]
+
+[tool.poetry]
+packages = [{include = "happy_birthday_project", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
