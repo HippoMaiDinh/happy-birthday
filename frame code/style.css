@@ -7,11 +7,11 @@
     box-sizing: border-box;
 }
 :root{
-    --color-pink: #feecea;
+    --color-green: #d5f5e4;
     --color-white: #fff;
     --color-black: #333;
-    --color-text-pink: #FF7882;
-    --color-heart: #FF7882;
+    --color-text-green: #32c576;
+    --color-heart: #f3f1f1;
     --color-bg-letter: #fff8e4;
     --color-border: #DACCBF;
 }
@@ -24,7 +24,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-image:linear-gradient(var(--color-pink), var(--color-pink));
+    background-image:linear-gradient(var(--color-green), var(--color-green));
 }
 #wrapper{
     position: relative;
@@ -79,7 +79,7 @@ body {
 #btn__letter{
     position: relative;
     margin-top: 30px;
-    background-color: var(--color-text-pink);
+    background-color: var(--color-text-green);
     outline: none;
     padding: 5px 15px;
     font-size: 1rem;
@@ -159,12 +159,12 @@ body {
     }
 }
 .title .birthday{
-    color: var(--color-text-pink);
+    color: var(--color-text-green);
 }
 
 .title .hat{
     position: absolute;
-    right: 45px;
+    right: 100px;
     top: -350px;
     transform: rotate(-40deg);
     z-index: -1;
@@ -185,7 +185,7 @@ body {
     display: flex;
     justify-content:space-around;
     align-items: center;
-    background-color: var(--color-text-pink);
+    background-color: var(--color-text-green);
     border-radius: 50px;
     margin-top: 20px;
     font-family: "Sriracha", cursive;
@@ -294,7 +294,7 @@ body {
 .text__cricle{
     width: 100px;
     height: 100px;
-    background-color: var(--color-text-pink);
+    background-color: var(--color-text-green);
     border-radius: 50%;
     border: 5px solid var(--color-black);
     display: flex;
@@ -449,8 +449,8 @@ body {
 }
 .smiley__icon{
     position: absolute;
-    bottom: 180px;
-    left: 600px;
+    bottom: 195px;
+    left: 54%;
     transform: scale(0);
     animation: scaleCricle 3s 15s forwards ease-in-out;
 }
@@ -668,7 +668,7 @@ body {
         position: relative;
         margin-top: 17px;
         width: 209px;
-        background-color: var(--color-text-pink);
+        background-color: var(--color-text-green);
         outline: none;
         padding: 6px 4px;
         font-size: 1rem;
