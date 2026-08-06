@@ -450,7 +450,7 @@ body {
 .smiley__icon{
     position: absolute;
     bottom: 195px;
-    left: 54%;
+    left: 60%;
     transform: scale(0);
     animation: scaleCricle 3s 15s forwards ease-in-out;
 }
